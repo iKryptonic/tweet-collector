@@ -1,0 +1,31 @@
+alcohol
+arbys
+bars
+bojangles
+burger
+c store
+cafeteria
+chick fil a
+chicken
+cookout
+delivery
+dining	
+djr
+golden corral	
+groceries
+food
+fries
+mc donald's
+mcdonalds
+meal
+noodles
+olive garden
+pasta
+pizza
+popeyes
+restaurants
+sonic
+sweets
+subway
+take out
+wendys

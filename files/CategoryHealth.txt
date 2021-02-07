@@ -1,0 +1,22 @@
+allergies
+allergy			
+appointment
+cancer
+dentist
+diet
+doctor
+drugs
+eating
+fitness
+gym
+health
+hostpital
+medical
+pharmacy
+pilates
+pounds
+running
+weights
+work out
+workout
+yoga

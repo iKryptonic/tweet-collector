@@ -1,0 +1,36 @@
+android
+apple
+apple watch
+app
+apps
+cell phone
+ces
+computer
+e3
+electronic
+electronics
+email
+galaxy
+google
+hard drive
+i/o
+ibm
+internet
+ios
+ipad
+iphone
+laptop
+mac
+mircosoft
+mobile app
+network
+online
+robots
+robotics
+samsung
+search engine
+software
+technology
+tv
+yahoo
+wifi
