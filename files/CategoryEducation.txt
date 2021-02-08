@@ -4,6 +4,7 @@ bachelor's
 bachelors
 books
 class
+curriculum
 classes
 course
 degree
@@ -13,6 +14,7 @@ essay
 exam
 fail
 finals
+financial aid
 freshman
 freshmen
 gmat
@@ -23,6 +25,7 @@ graduate
 gre
 junior
 juniors
+learning
 masters
 math
 midterm

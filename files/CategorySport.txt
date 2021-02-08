@@ -11,6 +11,7 @@ bills
 blazers
 blue jays
 boxing
+brady
 braves
 brewers
 broncos
@@ -20,6 +21,7 @@ bucks
 bulls
 cardinals
 cavs
+championship
 chargers
 chiefs
 colonels
@@ -53,6 +55,7 @@ kings
 knicks
 lacrosse
 lakers
+lebron
 lions
 mavericks
 marlins
@@ -104,7 +107,9 @@ st. louis rams
 student athlete
 student athletes
 suns
+superbowl
 swimming
+tampa
 team
 tennis
 texans

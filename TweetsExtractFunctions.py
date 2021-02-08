@@ -7,7 +7,6 @@ Last modified on 05/19/2015
 
 import twitter
 from twitter import TwitterError
-
 api = twitter.Api(consumer_key='4Zw2UA9jbnY4LQuJD0zjjL3AM',
                       consumer_secret='xWgpVVFg69trN3CQbbpgpH4BWRAklu3DamHSAXBRlZc3vMMMJv',
                       access_token_key='3092759235-ZEh9p6h6oPAn6zXjysRBsje9B1yhtQGWw3U9OHw',
@@ -49,10 +48,12 @@ def cleanToken(token, punctuationStr):
 
 # Get WSSU related users and store their screen names in a file
 def getWSSURelatedUsersNames(fname):
-    
+    from removeOfficialAccounts import getExclusionListFromFile
     uf = open(fname, 'w')
     userNameList = []   
     pageNum = 0         # which page of results to return
+    #get a list of official WSSU accounts to exclude from tweet data
+    exclusion_list = getExclusionListFromFile("files/WSSUOfficialAccountsToExclude.txt")
     
     while pageNum <= 50:
         print (pageNum)
@@ -61,11 +62,13 @@ def getWSSURelatedUsersNames(fname):
             try:
                 uname = s.screen_name
                 #print  (str(uname))
-                if not uname in userNameList:
-                    print ("not in userList")
-                    print  (str(uname))
-                    userNameList.append(uname)
-                    uf.write(str(uname) + "\n")
+                if uname not in exclusion_list:
+                    print(uname, "is in the list of excluded names")
+                    if not uname in userNameList:
+                        print ("not in userList")
+                        print  (str(uname))
+                        userNameList.append(uname)
+                        uf.write(str(uname) + "\n")
                 print (pageNum)
                 
             except UnicodeEncodeError:

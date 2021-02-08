@@ -1,13 +1,19 @@
+AOC
+biden
+capitol
 clinton
 charges
 cops
 court
+corruption
 crime
 democratic party
 democrats
 demonstration
 election
+election fraud
 elections
+fascism
 government
 governor
 isis
@@ -22,18 +28,24 @@ officers
 president
 prisoner
 prisoners
+proud boys
 republican party
 opposition
 politics
 prosecutor
+protest
+qanon
+riot
 republicans
+socialism
 senate
 senator
 shooting
 tea party
+trump
 vote
 voters
 voting
 white house
 war
-wepons 
+weapons 

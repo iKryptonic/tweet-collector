@@ -1,3 +1,5 @@
+amazon
+amd
 android
 apple
 apple watch
@@ -6,10 +8,12 @@ apps
 cell phone
 ces
 computer
+computer science
 e3
 electronic
 electronics
 email
+facebook
 galaxy
 google
 hard drive
@@ -24,7 +28,9 @@ mac
 mircosoft
 mobile app
 network
+nvidia
 online
+processor
 robots
 robotics
 samsung
@@ -32,5 +38,7 @@ search engine
 software
 technology
 tv
+twitter
+video card
 yahoo
 wifi

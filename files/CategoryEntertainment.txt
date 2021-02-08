@@ -25,7 +25,9 @@ exhibition
 film
 florida georgia line
 games
+gaming
 hozier
+hbo
 iggy
 j cole
 jay z
@@ -39,8 +41,11 @@ meghan trainor
 movie
 music
 nicki minaj
+nintendo
 newspaper
 party
+pixar
+playstation
 rhianna
 sam smith
 selena gomez
@@ -51,6 +56,10 @@ taylor swift
 television
 theatre
 tv
+TLC
+twitch
 usher
+video games
 wiz khalifa
+xbox
 ziggy's

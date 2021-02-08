@@ -24,8 +24,9 @@ help desk
 homecoming
 leaders
 provost
+rams
 school
-sorrority
+sorority
 teammates
 transcripts
 tutor
