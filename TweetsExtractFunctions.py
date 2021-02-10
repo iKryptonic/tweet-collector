@@ -48,7 +48,7 @@ def cleanToken(token, punctuationStr):
 
 # Get WSSU related users and store their screen names in a file
 def getWSSURelatedUsersNames(fname):
-    from removeOfficialAccounts import getExclusionListFromFile
+    from RemoveOfficialAccounts import getExclusionListFromFile
     uf = open(fname, 'w')
     userNameList = []   
     pageNum = 0         # which page of results to return
