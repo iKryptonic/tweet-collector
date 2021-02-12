@@ -3,19 +3,19 @@ arbys
 bars
 bojangles
 burger
-c store
+c-store
 cafeteria
-chick fil a
+chick-fil-a
 chicken
 cookout
 delivery
-dining	
+dining
 djr
-golden corral	
+golden corral
 groceries
 food
 fries
-mc donald's
+mcdonald's
 mcdonalds
 meal
 noodles
@@ -27,5 +27,5 @@ restaurants
 sonic
 sweets
 subway
-take out
+takeout
 wendys
