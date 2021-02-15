@@ -15,7 +15,7 @@ def main():
 
     # Set timestamps
     # The previous timestamp has to be entered manually
-    previous_timestamp = "1612632610.4718556"
+    previous_timestamp = "1613253691.2235389"
     current_timestamp = str(time.time())    # new stamp =             first current stamp = 1610655369.6565623
     print ("Previous timestamp: " + previous_timestamp)
     print ("Current timestamp: " + current_timestamp)
@@ -35,27 +35,19 @@ def main():
     while not done :
         
         print ("***************************************************************")
-        print ("  1  - Get users")  
-        print ("  2  - Get clean full tweets")
-        print ("  3  - Merge users files")
-        print ("  4  - Merge tweets files ")  
-        print ("  5  - Anonymize tweets file")
-        print ("  6  - Exit" )
+        print ("  1  - Continue")  
+        print ("  2  - Exit" )
         print ("****************************************************************")
     
         choice = input("Enter your choice:  ")  
        
         if choice == '1':
             getWSSURelatedUsersNames(current_users)
-        elif choice == '2':
             getCleanTweetsByUserNames(current_users, current_full_tweets)
-        elif choice == '3':
             tweetUsersMerge (previous_users, current_users, merged_users)
-        elif choice == '4':
             tweetFilesMerge (previous_full_tweets, current_full_tweets, merged_full_tweets, merged_tweets_text)
-        elif choice == '5':
             anonymizeFullTweetsFile(merged_full_tweets, anonym_full_tweets)
-        elif choice == '6':
+        elif choice == '2':
             print ("Bye ...")
             done = True
         else :

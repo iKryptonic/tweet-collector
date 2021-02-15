@@ -34,9 +34,10 @@ def removeDesiredTweets(data_file, exclude_file=None, exclusion_list = None):
             #usernames exists at position 0, check if in exclusion_list
             if tweets[0] not in exclusion_list:
                 f.write(line)
+                print()
             else:
                 #username of tweet that was removed
                 print(tweets[0])
     f.close()
 
-#removeDesiredTweets("files/t_1612626504.0854883_allFullTweets copy.txt","files/WSSUOfficialAccountsToExclude.txt")
+removeDesiredTweets("files/t_1613253691.2235389_allFullTweets.txt","files/WSSUOfficialAccountsToExclude.txt", None)
