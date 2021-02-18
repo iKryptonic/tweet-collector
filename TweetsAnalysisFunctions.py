@@ -13,15 +13,15 @@ punctuationNoHashSymbol ="""!"$%&()*+,-./:;<=>?@[\]^_`{|}~"""       # without # 
 
 number_returned = 50
 
-# Read a file containing one word per line and return a list of the words; 
-def createWordList(f):       
+# Read a file containing one word per line and return a list of the words;
+def createWordList(f):
     word_list = []
     with open(f) as wordfile:
         for word in wordfile:
             word_list.append(word.replace("\n", ""))   #remove end of line
-   
-    return word_list     
-    
+
+    return word_list
+
 #-------------------------------------------------------------------------------
 # Create a dictionary from a list of tokens
 def termFrequencyFromFile(txtFile):  
@@ -108,6 +108,8 @@ def tweetsInCategoryCount(tweetsfile, categoryList):
 
 #end categoryTermFrequency
 
+
+
 #-------------------------------------------------------------------------------
 # Get the percent of tweets that are re-tweets
 def percentOfRetweetedTeets(tweetsFile):     
@@ -129,4 +131,43 @@ def percentOfRetweetedTeets(tweetsFile):
     print ("Percent of retweeted tweets: " + str(retweets*100/tweets) + "%")
 
 # percentOfRetweetedTeets
+
+#-------------------------------------------------------------------------------
+# Get all tweets by frequency that are not categorized yet
+def getUncategorizedTweetsFromFile(txtFile):
+    
+    stopWordList=createWordList(stopWordFile)  
+    
+    category_elements = [
+        createWordList("files/CategorySport.txt"),
+        createWordList("files/CategoryTechnology.txt"),
+        createWordList("files/CategoryEntertainment.txt"),
+        createWordList("files/CategoryHealth.txt"),
+        createWordList("files/CategoryDining.txt"),
+        createWordList("files/CategoryFinances.txt"),
+        createWordList("files/CategoryTechnology.txt"),
+        createWordList("files/CategoryEducation.txt"),
+        createWordList("files/CategoryPolitics.txt"),
+        createWordList("files/CategoryReligion.txt")
+        ]
+    
+    allWords = {}
+    
+    for wordList in category_elements:
+        for word in wordList:
+            allWords[word] = 0 #initialize every word from all categories with 0
+    
+    term_dict = {}
+    with open(txtFile) as tweetsfile:
+        for tweet in tweetsfile:
+            wordList = stringToTokens(tweet, punctuationNoHashSymbol)
             
+            for word in wordList:
+                if not allWords.get(word) and (not word in stopWordList) and (word != "rt"):
+                    if not word in term_dict:
+                        term_dict[word] = 1
+                    else:
+                        term_dict[word] += 1
+    printFirstEntriesOfDictionary(term_dict, number_returned)
+    
+    return term_dict

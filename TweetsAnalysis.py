@@ -4,7 +4,7 @@ Created on Mar 27, 2015
 @author: Darina Dicheva / dichevad@wssu.edu
 
 '''
-from TweetsAnalysisFunctions import percentOfRetweetedTeets, tweetsInCategoryCount, hashtagFrequencyFromFile, termFrequencyFromFile, createWordList 
+from TweetsAnalysisFunctions import getUncategorizedTweetsFromFile, percentOfRetweetedTeets, tweetsInCategoryCount, hashtagFrequencyFromFile, termFrequencyFromFile, createWordList 
 
 # Tweets Categories
 sportList = createWordList("files/CategorySport.txt")
@@ -15,11 +15,11 @@ diningList = createWordList("files/CategoryDining.txt")
 financeList = createWordList("files/CategoryFinances.txt")
 educationList = createWordList("files/CategoryTechnology.txt")
 myUniversityList =createWordList("files/CategoryEducation.txt")
-politicsList = createWordList("files/CategoryPoliticsLaw.txt")
+politicsList = createWordList("files/CategoryPolitics.txt")
 religionList = createWordList("files/CategoryReligion.txt")
 
 def main():
-  
+    #getUncategorizedTweetsFromFile("files/t_1612811979.2980616_allTweetsText.txt")
     #tweets_status = "files/t_1432072541.83_anonymFullTweets.txt"
     #tweets_text = "files/t_1432072541.83_allTweetsText.txt"
     tweets_status = input("Enter the name of the file with full tweets: ")
@@ -33,8 +33,9 @@ def main():
         print ("  1 - FIND THE NUMBER OF TWEETS IN SELECTED CATEGORIES")
         print ("  2 - FIND THE MOST USED TERMS ")
         print ("  3 - FIND THE MOST USED HASHTAGS")  
-        print ("  4 - FIND PERCENT OF TWEETS THAT HAVE BEEN RE-TWEETED")     
-        print ("  5 - EXIT")
+        print ("  4 - FIND PERCENT OF TWEETS THAT HAVE BEEN RE-TWEETED")    
+        print ("  5 - GET UNCATEGORIZED TWEETS")    
+        print ("  6 - EXIT")
         print ("********************************************************")
         
         choice = input("Enter your choice: ")  
@@ -52,6 +53,9 @@ def main():
             # GET HASHTAGS FREQUENCIES
             percentOfRetweetedTeets(tweets_status)
         elif choice == 5:
+            # GET UNCATEGORIZED TWEET FREQUENCY
+            getUncategorizedTweetsFromFile(tweets_text)
+        elif choice == 6:
             print ("Bye ...")
             done = True
         else :
