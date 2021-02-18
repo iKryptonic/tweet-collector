@@ -112,7 +112,7 @@ def getCleanTweetsByUserNames(userNamesFile, tweetsFile):
                     cleanedToken = cleanToken(token, punctuationNoHashSymbol)
                     cleanedText = cleanedText + cleanedToken + " "
         
-                line = userName + "\t" + str(s.id) + "\t" + str(s.created_at) + "\t" + str(s.retweet_count) + "\t" + cleanedText + "\n"
+                line = userName + "," + str(s.id) + "," + str(s.created_at) + "," + str(s.retweet_count) + "," + cleanedText + "\n"
                 f.write(line)
                 print (line )              
                 tweetsNumber += 1
@@ -143,7 +143,7 @@ def tweetFilesMerge (f1, f2, f3, f4):
     num_tweets1 = 0
     with open(f1) as f1_statuses:
         for status in f1_statuses:
-            uid, tweetid, dtime, rt, tweet = status.split("\t")
+            uid, tweetid, dtime, rt, tweet = status.split(",")
             # check if this tweet is already in the list, if not add it
             if not tweetid in tweetids:
                 tweetids.append(tweetid)
@@ -155,7 +155,7 @@ def tweetFilesMerge (f1, f2, f3, f4):
     num_tweets2 = 0
     with open(f2) as f2_statuses:
         for status in f2_statuses:
-            uid, tweetid, dtime, rt, tweet = status.split("\t")
+            uid, tweetid, dtime, rt, tweet = status.split(",")
             # check if this tweet is already in the list, if not add it
             if not tweetid in tweetids:
                 tweetids.append(tweetid)
@@ -223,7 +223,7 @@ def anonymizeFullTweetsFile(fullTweetsFile, anonymFile):
             tweet = tweet.replace("\n", " ")   #remove end of line            
 
             # extract user name from status
-            ind = tweet.find("\t")      
+            ind = tweet.find(",")      
             userName = tweet[:ind]
 
             # add user name to dictionary if not there
