@@ -24,6 +24,7 @@ cavs
 championship
 chargers
 chiefs
+coach
 colonels
 colts
 cowboys
@@ -124,5 +125,4 @@ volleyball
 warriors
 white sox
 wizards
-yankees
-			
+yankees		

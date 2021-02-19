@@ -1,6 +1,7 @@
 ariana grande			
 art
 artist
+band
 beyonce
 big sean
 blake shelton
@@ -22,10 +23,12 @@ dvd
 ed sheeran
 events
 exhibition
+festival
 film
 florida georgia line
 games
 gaming
+gitar
 hozier
 hbo
 iggy
@@ -40,9 +43,11 @@ maroon 5
 meghan trainor
 movie
 music
+musical
 nicki minaj
 nintendo
 newspaper
+orchestra 
 party
 pixar
 playstation
@@ -51,6 +56,7 @@ sam smith
 selena gomez
 shows
 sia
+singer
 song
 taylor swift
 television

@@ -1,15 +1,23 @@
 AOC
 arrest
 autorney
+bernie
 biden
+black lives matter
+BLM
 cancel culture
 capitol
 caucus
+centrism
 clinton
 charge
+capitol
 congress
 convict
 conviction
+conservatism
+conservatives
+conspiracy theory
 constitution
 constitutional
 constitutionality
@@ -20,8 +28,8 @@ corruption
 crime
 criminal
 custody
-DACA
 defence
+democracy
 democratic party
 democrats
 demonstration
@@ -32,15 +40,18 @@ elections
 extremist
 fake news
 fascism
+federal court
 GOP
 government
 governor
-immigration
+impeachment
 insurrection
 insurrectionists 
 investigation
-inaguration
+inauguration
 isis
+Kamala Harris
+Jan. 6
 judge
 justice
 law
@@ -48,11 +59,14 @@ lawmaker
 MAGA
 mayor
 military
+Mitch McConnell
 mob
 obama
 obamacare
 obamas
 officers
+party
+pelosi
 poll
 president
 prisoner
@@ -67,6 +81,7 @@ prosecution
 protest
 qanon
 racial
+racism
 reelection
 riot
 rioters
@@ -83,9 +98,12 @@ terrorist
 trump
 trumpism
 unlawful
+unrest
 vote
+voter
 voters
 voting
 white house
 war
-weapons 
+weapon
+weapons

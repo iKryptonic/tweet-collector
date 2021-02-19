@@ -1,32 +1,46 @@
 account
+asset
 bank
+bitcoin
+bonds
 broke
+budget
+capitalism
 cash
 check
 credit
+cryptocurrency
+currency
 debit
 debt
-economy
-interest
-capitalism
-stocks
-stockmarket
-mortgage
-inflation
 deficit
-poor
-asset
-treasury
-frugal
+deposit
+economy
 finance
 finances
+frugal
 funds
+inflation
+insurance
+interest
 invest
 investment
+IRS
 loan
 loans			
+market
 money
+mortgage
+refinance 
+robinhood
+salary
 savings
 stipend
+stocks
+stock market
+tax filing
+taxes
+treasury
 tuition
+wall street
 wells fargo
