@@ -40,4 +40,20 @@ def removeDesiredTweets(data_file, exclude_file=None, exclusion_list = None):
                 print(tweets[0])
     f.close()
 
-removeDesiredTweets("files/t_1613253691.2235389_allFullTweets.txt","files/WSSUOfficialAccountsToExclude.txt", None)
+###-----------------------------------------------------------------------
+#Remove official accounts from file
+def removeOfficialAccountsFromFile(data_file, exclude_file = None, exclusion_list = None):
+    
+    #if no list is passed, a path to a file should be passed
+    if exclusion_list is None:
+        exclusion_list = getExclusionListFromFile(exclude_file)
+        
+    with open(data_file, 'r') as f:
+        lines = f.readlines()
+    with open(data_file, 'w') as f:
+        for account_name in lines:
+            if account_name.strip("\n") not in exclusion_list:
+                f.write(account_name)
+            else:
+                print(account_name)
+    f.close()

@@ -9,6 +9,7 @@ Last modified on 05/19/2015
 import time
 from TweetsExtractFunctions import getWSSURelatedUsersNames, tweetUsersMerge, anonymizeFullTweetsFile
 from TweetsExtractFunctions import tweetFilesMerge, getCleanTweetsByUserNames
+from RemoveOfficialAccounts import removeDesiredTweets, removeOfficialAccountsFromFile
 
 
 def main():
@@ -30,6 +31,8 @@ def main():
     merged_full_tweets = "files/t_" + current_timestamp + "_allFullTweets.txt"
     merged_tweets_text = "files/t_" + current_timestamp + "_allTweetsText.txt"  
     anonym_full_tweets = "files/t_" + current_timestamp + "_anonymFullTweets.txt"
+    
+    exclusion_file = "files/WSSUOfficialAccountsToExclude.txt"
    
     done = False   
     while not done :
@@ -47,6 +50,7 @@ def main():
             tweetUsersMerge (previous_users, current_users, merged_users)
             tweetFilesMerge (previous_full_tweets, current_full_tweets, merged_full_tweets, merged_tweets_text)
             anonymizeFullTweetsFile(merged_full_tweets, anonym_full_tweets)
+            removeOfficialAccountsFromFile(merged_users, exclusion_file)
         elif choice == '2':
             print ("Bye ...")
             done = True
