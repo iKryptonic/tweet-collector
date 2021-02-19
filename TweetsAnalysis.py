@@ -7,6 +7,7 @@ Created on Mar 27, 2015
 from TweetsAnalysisFunctions import getUncategorizedTweetsFromFile, percentOfRetweetedTeets, tweetsInCategoryCount, hashtagFrequencyFromFile, termFrequencyFromFile, createWordList 
 
 # Tweets Categories
+societyList = createWordList("files/CategoryCitizenship.txt")
 sportList = createWordList("files/CategorySport.txt")
 technologyList = createWordList("files/CategoryTechnology.txt")
 entertainmentList = createWordList("files/CategoryEntertainment.txt")
@@ -14,17 +15,17 @@ healthList = createWordList("files/CategoryHealth.txt")
 diningList = createWordList("files/CategoryDining.txt")
 financeList = createWordList("files/CategoryFinances.txt")
 educationList = createWordList("files/CategoryTechnology.txt")
-myUniversityList =createWordList("files/CategoryEducation.txt")
+#myUniversityList =createWordList("files/CategoryEducation.txt")
 politicsList = createWordList("files/CategoryPolitics.txt")
 religionList = createWordList("files/CategoryReligion.txt")
 
 def main():
-    #getUncategorizedTweetsFromFile("files/t_1612811979.2980616_allTweetsText.txt")
+    #getUncategorizedTweetsFromFile("files/t_1613701713.615095_allFullTweets.txt")
     #tweets_status = "files/t_1432072541.83_anonymFullTweets.txt"
-    #tweets_text = "files/t_1432072541.83_allTweetsText.txt"
-    tweets_status = input("Enter the name of the file with full tweets: ")
-    tweets_text = input("Enter the name of the file tweets' text: ")
-
+    tweets_text = "files/t_1613749733.6809914_allTweetsText.txt"
+    #tweets_status = input("Enter the name of the file with full tweets: ")
+    #tweets_text = input("Enter the name of the file tweets' text: ")
+  
     done = False   
     while not done :
                         
@@ -40,22 +41,22 @@ def main():
         
         choice = input("Enter your choice: ")  
         
-        if choice == 1:
+        if choice == '1':
             # FIND THE NUMBER OF TWEETS IN SELECTED CATEGORIES
             tweetsByCategories(tweets_text)                
-        elif choice == 2:
+        elif choice == '2':
             # GET TERM FREQUENCIES
             termFrequencyFromFile(tweets_text)
-        elif choice == 3:
+        elif choice == '3':
             # GET HASHTAGS FREQUENCIES
             hashtagFrequencyFromFile(tweets_text)
-        elif choice == 4:
+        #elif choice == '4':
             # GET HASHTAGS FREQUENCIES
-            percentOfRetweetedTeets(tweets_status)
-        elif choice == 5:
+            #percentOfRetweetedTeets(tweets_status)
+        elif choice == '5':
             # GET UNCATEGORIZED TWEET FREQUENCY
             getUncategorizedTweetsFromFile(tweets_text)
-        elif choice == 6:
+        elif choice == '6':
             print ("Bye ...")
             done = True
         else :
@@ -91,9 +92,13 @@ def tweetsByCategories(tweetsFile):
     tweets_count = tweetsInCategoryCount(tweetsFile, educationList)
     print ("Tweets in Education Category: " + str(tweets_count))
     
+    # Get the count of tweets in the Social category
+    tweets_count = tweetsInCategoryCount(tweetsFile, societyList)
+    print ("Tweets in Society Category: " + str(tweets_count))
+
     # Get the count of tweets in the Politics category
-    tweets_count = tweetsInCategoryCount(tweetsFile, myUniversityList)
-    print ("Tweets in myUniversity Category: " + str(tweets_count))
+    #tweets_count = tweetsInCategoryCount(tweetsFile, myUniversityList)
+    #print ("Tweets in myUniversity Category: " + str(tweets_count))
     
     # Get the count of tweets in the Politics category
     tweets_count = tweetsInCategoryCount(tweetsFile, diningList)

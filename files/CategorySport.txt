@@ -69,6 +69,7 @@ mma
 nascar
 nationals
 nba
+nbaallstar
 ncaa
 nets
 nhl

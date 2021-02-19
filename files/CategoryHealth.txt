@@ -10,6 +10,7 @@ bones
 cancer
 conditioning
 covid
+covid19
 covid-19
 cure
 dentist

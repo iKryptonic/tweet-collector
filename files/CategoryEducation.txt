@@ -8,6 +8,7 @@ admissions counselors
 advisor
 advisors
 alumnae
+alumni
 art
 assistant
 assistantship
@@ -31,18 +32,21 @@ classes
 classmates
 coach
 college
+colleges
 commencement
-covid-19
 cross country
 curriculum
 course
 employment
 dean
 degree
+degrees
 department
+departments
 diploma
 distance learning
 doctor
+doctors
 doctoral
 dorm
 dormitory
@@ -52,6 +56,7 @@ essay
 exam
 faculty
 fail
+final
 finals
 financial aid
 football
@@ -65,17 +70,17 @@ grade
 grades
 graduate
 graduation
-gmat
 gre
-handball
+hbcu
 help desk
 homecoming
 homework
 hybrid mode
 hybrid classes
 housing
-Instructor
-Instructional
+instructional
+instructor
+instructors
 job
 junior
 juniors
@@ -87,8 +92,10 @@ masters
 math
 mathematics
 MBA
+mid-term
 midterm
 midterms
+ncat
 nerd
 nursing
 online
@@ -103,8 +110,10 @@ provost
 quiz
 RA
 ramdition
+rampath
 rams
 registrar
+registrar's office
 research
 residence
 scholarship
@@ -115,7 +124,6 @@ semester
 seminar
 senior
 seniors
-soccer
 sophomore
 sophomores
 sorority
@@ -142,6 +150,7 @@ tutor
 tutoring
 undergraduate
 university
-volleyball
 workshop
+wssu
+wssualumni
 zoom

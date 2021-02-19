@@ -1,6 +1,8 @@
 army
 attorney
 billionaire
+black
+blackhistorymonth
 border
 car
 cars
@@ -17,8 +19,15 @@ immigrants
 immigration
 inmate
 justice
+KKK
 military
 navy
+negro
+negroes
+nigga
+niggas
+nigger
+niggers 
 online
 prison
 poor
