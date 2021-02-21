@@ -2,11 +2,13 @@ academia
 academic
 academic catalog
 accreditation
+auditorium
 adjunct
 administration
 admissions counselors
 advisor
 advisors
+alumna
 alumnae
 alumni
 art
@@ -20,6 +22,7 @@ basketball
 billing office
 business
 blackboard
+book
 books
 campus
 canvas
@@ -37,7 +40,6 @@ commencement
 cross country
 curriculum
 course
-employment
 dean
 degree
 degrees
@@ -52,6 +54,8 @@ dorm
 dormitory
 drop-out
 education
+enroll
+enrollement
 essay
 exam
 faculty
@@ -81,13 +85,13 @@ housing
 instructional
 instructor
 instructors
-job
 junior
 juniors
 lab
 learning
 lesson
 literacy
+master degree
 masters
 math
 mathematics
@@ -104,6 +108,7 @@ orientation
 pedagogy
 phd
 physics
+prerequisite
 professor
 project
 provost
@@ -127,7 +132,6 @@ seniors
 sophomore
 sophomores
 sorority
-sport
 staff
 statistics
 stem
@@ -139,6 +143,7 @@ teacher
 teaching assistant
 teammates
 test
+tests
 textbook
 textbooks
 theory
@@ -147,9 +152,12 @@ therapy
 transcripts
 transfer
 tutor
+tutors
 tutoring
 undergraduate
+undergraduates
 university
+university's
 workshop
 wssu
 wssualumni

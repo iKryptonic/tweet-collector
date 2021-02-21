@@ -5,14 +5,18 @@ annasthetic
 anemia
 anorexia
 appointment
+accident
+accidents
 bacteria
 bones
 cancer
+coma
 conditioning
 covid
 covid19
 covid-19
 cure
+deaf
 dentist
 diabetes
 diet
@@ -41,6 +45,7 @@ lumbar
 medical
 medication
 memory
+mentalhealth
 mental health
 metabolic
 muscular
@@ -66,6 +71,7 @@ running
 safety
 sanitation
 sanitary
+selfcare
 senile
 skin
 sleep
@@ -76,11 +82,13 @@ surgery
 symptom
 strong
 stress
+therapeutic
 tremor
 trauma
 treatment
 transplant
 vaccine
+vaccinated
 vaccination
 virus
 walking

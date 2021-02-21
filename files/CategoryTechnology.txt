@@ -5,6 +5,7 @@ apple
 apple watch
 app
 apps
+airpods
 cell phone
 ces
 computer
@@ -35,6 +36,7 @@ robots
 robotics
 samsung
 search engine
+siri
 software
 technology
 tv

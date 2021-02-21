@@ -44,6 +44,7 @@ federal court
 GOP
 government
 governor
+impeached
 impeachment
 insurrection
 insurrectionists 
@@ -71,8 +72,6 @@ party
 pelosi
 poll
 president
-prisoner
-prisoners
 proud boys
 opposition
 political
@@ -84,6 +83,7 @@ protest
 qanon
 racial
 racism
+rbg
 reelection
 riot
 rioters
@@ -97,6 +97,7 @@ shooting
 supreme court
 tea party
 terrorist
+terrorists
 trump
 trumpism
 unlawful
@@ -106,6 +107,5 @@ voter
 voters
 voting
 white house
-war
 weapon
 weapons

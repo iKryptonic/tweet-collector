@@ -1,6 +1,9 @@
 ariana grande
 art
 artist
+artists
+ballerina
+ballet
 band
 beyonce
 big sean
@@ -14,8 +17,10 @@ cinema
 comedy
 concert
 chris brown
+choral
 dance
 dancer
+dancers
 dancing
 drake
 drama
@@ -24,6 +29,7 @@ ed sheeran
 events
 exhibition
 festival
+festivities
 film
 florida georgia line
 games
@@ -42,21 +48,27 @@ magazines
 maroon 5
 meghan trainor
 movie
+movies
 music
 musical
+museum
 nicki minaj
 nintendo
 newspaper
+newspapers
+opera
 orchestra 
 party
 pixar
 playstation
+remix
 rhianna
 sam smith
 selena gomez
-shows
+show
 sia
 singer
+singers
 song
 taylor swift
 television

@@ -103,6 +103,8 @@ scoring
 seahawks
 skating		
 soccer
+sport
+sports
 steelers
 spurs
 st. louis rams

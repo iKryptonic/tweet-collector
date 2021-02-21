@@ -7,6 +7,7 @@ c-store
 cafeteria
 chick-fil-a
 chicken
+chipotle
 cookout
 delivery
 dining
@@ -15,17 +16,22 @@ golden corral
 groceries
 food
 fries
+liquor
+margarita
 mcdonald's
 mcdonalds
 meal
 noodles
 olive garden
+oysters
 pasta
 pizza
 popeyes
+restaurant
 restaurants
 sonic
 sweets
 subway
 takeout
+tacos
 wendys
